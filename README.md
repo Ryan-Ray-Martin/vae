@@ -2,7 +2,6 @@
 
 This repository contains an implementation of a Variational Autoencoder (VAE) for timeseries data. VAEs are a type of generative model that can learn to encode data into a lower-dimensional representation (latent space) and then decode it back to reconstruct the original data. This is achieved by combining an encoder neural network, which maps the input data to the latent space, and a decoder neural network, which reconstructs the data from the latent space.
 
-![Visualization of VAE](/Users/ryanmartin/Desktop/vae.png)  <!-- Replace with a path to an actual visualization image if available -->
 
 ## Understanding Autoencoders
 
