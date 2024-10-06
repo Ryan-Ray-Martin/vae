@@ -2,9 +2,11 @@
 
 This repository contains an implementation of a Variational Autoencoder (VAE) for timeseries data. VAEs are a type of generative model that can learn to encode data into a lower-dimensional representation (latent space) and then decode it back to reconstruct the original data. This is achieved by combining an encoder neural network, which maps the input data to the latent space, and a decoder neural network, which reconstructs the data from the latent space.
 
+![Visualization of VAE](/Users/ryanmartin/Desktop/vae.png)  <!-- Replace with a path to an actual visualization image if available -->
+
 ## Understanding Autoencoders
 
-For a detailed explanation of autoencoders and their various types, including VAEs, I recommend reading the Medium article ["Understanding Autoencoders"](https://medium.com/datadriveninvestor/understanding-autoencoders-8e228eb96cec). The article provides a comprehensive overview of autoencoders, their architecture, and their applications.
+For a detailed explanation of autoencoders and their various types, including VAEs, I recommend reading the Substack article ["Variational Autoencoders for Timeseries Data Generation"](https://ryanraymartin.substack.com/p/variational-autoencoders-for-timeseries). The article provides a comprehensive overview of autoencoders, their architecture, and their applications.
 
 ## Requirements
 
@@ -14,11 +16,12 @@ For a detailed explanation of autoencoders and their various types, including VA
 - TensorFlow
 - Keras
 - scikit-learn
+- seaborn
 
 You can install the required Python packages using the following command:
 
 ```bash
-pip install numpy matplotlib tensorflow scikit-learn
+pip install -r requirements
 ```
 
 ## Usage
@@ -36,8 +39,6 @@ The command-line arguments allow you to control the number of samples, timesteps
 The repository is organized as follows:
 
 - `vae.py`: Python script containing the VAE model implementation and the main program.
-- `README.md`: This file, providing information about the repository.
-- `medium_article.md`: Markdown file containing the content of the Medium article "Understanding Autoencoders".
 
 ## License
 
